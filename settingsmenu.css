@@ -1,0 +1,24 @@
+/* MenuWindow */
+#menuWindow.dark {
+    background: var(--accent-color);
+    border : 5px solid var(--border-color);
+    box-shadow: 0 0 20px var(--border-color);
+    max-width : 1440px;
+}
+
+.settName, .settNameSmall {
+    color: black !important;
+}
+
+div#windowHolder[style="display: none;"], div#windowHolder[style="display:none"] {
+    display : block !important;
+    background: rgba(0, 0, 0, 0);
+    transform : scale(0);
+    transition: .4s cubic-bezier(0.71, -0.63, 0.67, 0.97);
+}
+
+div#windowHolder[style="display: block;"] {
+    background: rgba(0, 0, 0, 0);
+    transform : scale(1);
+    transition: .4s cubic-bezier(0.44, 0.01, 0.26, 1.93);
+}

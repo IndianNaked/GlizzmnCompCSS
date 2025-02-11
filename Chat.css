@@ -1,0 +1,50 @@
+/* Chat */
+#chatHolder {
+  transform: skewX(-8deg);
+	background: #00000000;
+
+}
+
+.chatMsg[style*="color"] {
+	background: #00000000;
+  color: white !important;
+  filter: drop-shadow(2px 2px 4px #000000);
+}
+
+#uiBase.onMenu #chatHolder {
+	background: #00000000;
+  left    : 250px;
+  position: fixed;
+	
+}
+
+#chatList {
+  background: #00000000;
+	
+}
+
+div[data-tab="-1"],
+div[id*="chatMsg"] {
+  margin-top: 5px;
+  background: rgb(0 0 0 / 0%);
+  border    : solid 4px var(--sub-color);
+	
+}
+
+#chatInputHolder {
+	background: #00000000;
+  border: solid 4px var(--sub-color);
+	filter       : drop-shadow(0 0 5px var(--sub-color));
+	
+}
+
+#chatInput {
+  background: #00000000;
+  box-shadow: unset;
+  border    : unset;
+  filter       : drop-shadow(0 0 5px var(--sub-color));
+}
+
+#voiceDisplay {
+  display: none;
+}

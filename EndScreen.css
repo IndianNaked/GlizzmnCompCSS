@@ -1,0 +1,132 @@
+/*End Screen*/
+
+#endUI {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  backdrop-filter: grayscale(1) blur(4px);
+}
+
+#uiBase.onEndScrn #victorySubHolder {
+  top: 0;
+  width: 140px;
+  height: 100%;
+  background-color: var(--accent);
+}
+
+#victorySub {
+  content: url(https://api.iconify.design/mdi/emoticon.svg);
+  width: 64px;
+  position: relative;
+  top: 54px;
+}
+
+#victorySub[src="./img/def.png"] {
+  content: url(https://api.iconify.design/mdi/emoticon-dead.svg);
+}
+
+#endInfo {
+  top: 144px;
+}
+
+.teamTotals {
+  background-color: transparent;
+}
+
+.teamTotalN0,
+.teamTotalN1 {
+  font-size: 28px;
+}
+
+.teamTotalScore {
+  font-size: 28px;
+}
+
+.teamWin0,
+.teamWin1 {
+  color: var(--accent) !important;
+}
+
+.matchVote {
+  border-radius: 0;
+  border: none !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+.matchVoteMap {
+  font-size: 20px;
+  color: var(--accent);
+}
+
+.matchVoteMode {
+  font-size: 16px;
+  height: unset;
+  color: #fff;
+}
+
+.matchVoteTotal {
+  height: unset;
+  font-size: 20px;
+  color: var(--accent) !important;
+}
+
+.matchVoteTotal[style="color: rgba(255, 255, 255, 0.7);"] {
+  color: #fff !important;
+}
+
+#endTimer {
+  position: fixed;
+  right: calc(100% - 36px);
+  top: 160px;
+  width: max-content;
+  margin: 0;
+  color: #000;
+  font-style: normal;
+  line-height: unset;
+  font-size: 48px;
+  text-shadow: none;
+  transform: rotate(-90deg);
+  transform-origin: right top;
+}
+
+.endCard {
+  border-radius: 0;
+  padding: 16px;
+}
+
+#tabHolder {
+  background-color: transparent;
+  padding: 0 12px;
+}
+
+.tabHeader {
+  font-size: 24px;
+  color: #fff;
+}
+
+.tabHeader.selected {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+#endTable {
+  background-color: transparent;
+  padding: 0 12px;
+}
+
+#endTable span[style="color:#F8C55C"] {
+  color: var(--accent) !important;
+}
+
+th,
+tr {
+  border-bottom: 4px solid #fff;
+}
+
+th {
+  font-size: 24px;
+}
+
+td {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 24px;
+}

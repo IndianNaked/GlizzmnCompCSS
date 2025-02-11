@@ -1,0 +1,26 @@
+        #mainLogo {
+            margin-top: 250px;
+            margin-bottom: -40px;
+            height: 150px;
+            content: url("https://i.imgur.com/EJfW0cy.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            position: relative; /* Ensures the element stays positioned properly */
+            animation: pulseRotate 3s infinite ease-in-out; /* Apply animation */
+        }
+        
+        /* Keyframes for the animation */
+        @keyframes pulseRotate {
+            0% {
+                transform: scale(2); /* Default size and rotation */
+            }
+            50% {
+                transform: scale(2.4); /* Slightly larger and rotated */
+            }
+            100% {
+                transform: scale(2); /* Maximum scale */
+            }
+        }
+
+
